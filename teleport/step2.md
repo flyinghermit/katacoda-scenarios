@@ -3,7 +3,7 @@
 
 
 Generate a configuration file
-`sudo teleport configure --acme --cluster-name=https://[[HOST_SUBDOMAIN]]-[[KATACODA_HOST]].environments.katacoda.com/ -o file`{{execute}}.
+`sudo teleport configure --acme --cluster-name=[[HOST_SUBDOMAIN]]-[[KATACODA_HOST]].environments.katacoda.com/ -o file`{{execute}}.
 
 
 Start Teleport
