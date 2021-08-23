@@ -1,0 +1,5 @@
+Teleport Lab
+
+Teleport is an identity-aware, multi-protocol access proxy which understands SSH, HTTPS, Kubernetes API, MySQL and PostgreSQL wire protocols. It is completely transparent to client-side tools and designed to work with everything in today’s DevOps ecosystem.
+
+In this scenario, you will learn basic working of Teleport. It will explain the essential aspects and the design decisions that you need to be aware of.

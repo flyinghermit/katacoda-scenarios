@@ -1,9 +1,9 @@
 
-## Initial Configurations
+## Explore CLI
 
 
-Generate a configuration file
-`sudo teleport configure --acme --cluster-name=[[HOST_SUBDOMAIN]]-[[KATACODA_HOST]].environments.katacoda.com/ -o file`{{execute}}.
+Let's jump into container with setup clients and explore Teleport:
+`docker exec -ti term /bin/bash`{{execute}}.
 
 
 Start Teleport
