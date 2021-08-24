@@ -1,1 +1,1 @@
-sleep 1; wait.sh
+run-initial-setup.sh

@@ -2,7 +2,7 @@
 
 show_progress()
 {
-  echo -n "Setting up your terminal"
+  echo -n "Setting up your environment"
   local -r pid="${1}"
   local -r delay='0.75'
   local spinstr='\|/-'
