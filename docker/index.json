@@ -4,6 +4,9 @@
   "difficulty": "Beginner",
   "time": "10 minutes",
   "details": {
+    "intro": {
+      "text": "intro.md"
+    },
     "steps": [
       {
         "title": "Start Teleport",
@@ -20,12 +23,15 @@
         "text": "step3.md"
       }
     ],
-    "intro": {
-      "text": "intro.md"
-    },
+  
     "finish": {
       "text": "finish.md"
-    }
+    },
+    "assets": {
+      "host01": [
+          {"file": "run-initial-setup.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+      ]
+  }
   },
   "environment": {
     "uilayout": "terminal",
