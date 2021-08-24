@@ -7,8 +7,8 @@
     "steps": [
       {
         "title": "Start Teleport",
-        "courseData": "step2-background.sh",
-        "code": "step2-foreground.sh",
+        "courseData": "install-teleport.sh",
+        "code": "waitfor-install.sh",
         "text": "step1.md"
       },
       {
