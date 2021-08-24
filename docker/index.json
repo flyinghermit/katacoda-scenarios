@@ -1,6 +1,6 @@
 {
-  "title": "Telepot using Docker",
-  "description": "Telepot using Docker",
+  "title": "Teleport using Docker",
+  "description": "Teleport using Docker",
   "difficulty": "Beginner",
   "time": "10 minutes",
   "details": {
@@ -17,7 +17,7 @@
       },
       {
         "title": "Teleport tsh client",
-        "text": "step2.md"
+        "text": "step3.md"
       }
     ],
     "intro": {
@@ -28,10 +28,10 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal",
+    "uilayout": "terminal",
     "showdashboard": true,
-    "dashboards": [{"name": "Port 80", "port": 80},
-      {"name": "Web UI", "href": "https://[[HOST_SUBDOMAIN]]-3080-[[KATACODA_HOST]].environments.katacoda.com"}]
+    "dashboards": [
+      {"name": "Teleport Web UI", "href": "https://[[HOST_SUBDOMAIN]]-3080-[[KATACODA_HOST]].environments.katacoda.com"}]
   },
   "backend": {
     "imageid": "ubuntu:2004"

@@ -1,8 +1,6 @@
 
 
 
-## Creating a Teleport user
-
 In previous step, we created a simple Teleport cluster with Proxy and Auth service. Now let's create a Teleport user that can authenticate with Teleport cluster.
 
 ### tctl
@@ -12,6 +10,9 @@ In previous step, we created a simple Teleport cluster with Proxy and Auth servi
 This following command will create a Teleport user(using `tctl`) called "testuser "which is allowed to log in as either operating system user root or ubuntu:
 `docker exec teleport tctl users add testuser --roles=editor,access --logins=root,ubuntu,ec2-user`{{execute}}.
 
-
+### Teleport Web UI
 Access Teleport Web UI to complete user registration:
-https://[[HOST_SUBDOMAIN]]-3080-[[KATACODA_HOST]].environments.katacoda.com
+
+Format - https://[[HOST_SUBDOMAIN]]-3080-[[KATACODA_HOST]].environments.katacoda.com/web/invite/{token}>
+
+(replace {token} with invite token value printed in terminal)
