@@ -1,6 +1,6 @@
 {
-  "title": "Telepot Lab",
-  "description": "Telepot Lab",
+  "title": "Telepot using Docker",
+  "description": "Telepot using Docker",
   "difficulty": "Beginner",
   "time": "10 minutes",
   "details": {
@@ -16,14 +16,6 @@
       {
         "title": "Step 3",
         "text": "step3.md"
-      },
-      {
-        "title": "Step 4",
-        "text": "step4.md"
-      },
-      {
-        "title": "Step 5",
-        "text": "step5.md"
       }
     ],
     "intro": {
