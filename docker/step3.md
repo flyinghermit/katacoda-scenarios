@@ -8,3 +8,11 @@ Loging to your Teleport cluster using `tsh`.
 `tsh login --proxy=localhost --insecure --user=testuser`{{execute}}.
 
 
+View your status:
+`tsh status`{{execute}}
+
+List all SSH servers connected to Teleport:
+`tsh ls`{{execute}}
+
+SSH into **localhost** node using tsh:
+`tsh ssh root@localhost`{{execute}}
