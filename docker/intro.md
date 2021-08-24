@@ -1,4 +1,4 @@
-Teleport using Docker
+
 
 Teleport is an identity-aware, multi-protocol access proxy which understands SSH, HTTPS, Kubernetes API, MySQL and PostgreSQL wire protocols. It is completely transparent to client-side tools and designed to work with everything in today’s DevOps ecosystem.
 

@@ -6,11 +6,17 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Start Teleport",
+        "courseData": "step2-background.sh",
+        "code": "step2-foreground.sh",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Create Teleport User",
+        "text": "step2.md"
+      },
+      {
+        "title": "Teleport tsh client",
         "text": "step2.md"
       }
     ],
@@ -25,7 +31,7 @@
     "uilayout": "editor-terminal",
     "showdashboard": true,
     "dashboards": [{"name": "Port 80", "port": 80},
-      {"name": "Web UI", "href": "https://[[HOST_SUBDOMAIN]]-443-[[KATACODA_HOST]].environments.katacoda.com"}]
+      {"name": "Web UI", "href": "https://[[HOST_SUBDOMAIN]]-3080-[[KATACODA_HOST]].environments.katacoda.com"}]
   },
   "backend": {
     "imageid": "ubuntu:2004"
